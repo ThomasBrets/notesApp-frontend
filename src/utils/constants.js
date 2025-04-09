@@ -1,2 +1,1 @@
-
-export const BASE_URL = "https://tcpp5q-3000.csb.app/api"; // URL del backend desplegado
+export const BASE_URL = "https://notesapp-api-amjk.onrender.com/api"; // URL del backend desplegado
