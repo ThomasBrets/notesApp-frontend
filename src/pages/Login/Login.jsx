@@ -82,7 +82,7 @@ const Login = () => {
             {/* Enlace para crear una cuenta */}
             <p className="text-sm text-center mt-4">
               Not registered yet?{" "}
-              <Link to="/signUp" className="font-medium text-primary underline">
+              <Link to="/auth/register" className="font-medium text-primary underline">
                 Create an Account
               </Link>
             </p>
