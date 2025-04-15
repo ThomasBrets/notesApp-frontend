@@ -60,10 +60,12 @@ const Home = () => {
     try {
       // Llamada a la nueva ruta /get-user
       const response = await axiosInstance.get("/users/get-user");
-      console.log("GET-RESP.DATA.DOC", response.data._doc);
+      console.log("GET-RESP.DATA.DOC", response.data);
 
       if (response.data && response.data._doc) {
         setUserInfo(response.data._doc); // Guardar la info en el estado
+         console.log("USERINFO",userInfo);
+          
       }
     } catch (error) {
       if (error.response && error.response.status === 401) {
