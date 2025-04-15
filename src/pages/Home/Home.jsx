@@ -10,6 +10,9 @@ import { IoMdClose } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import AddNote from "../../assets/images/AddNote.svg";
 
+
+
+
 // Axios
 import axiosInstance from "../../utils/axios";
 
