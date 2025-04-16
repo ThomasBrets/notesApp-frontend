@@ -63,7 +63,7 @@ const Home = () => {
       console.log("GET-RESP.DATA.DOC", response.data);
 
       if (response.data) {
-        setUserInfo(response.data._doc); // Guardar la info en el estado
+        setUserInfo(response.data); // Guardar la info en el estado
          console.log("USERINFO",userInfo);
           
       }
