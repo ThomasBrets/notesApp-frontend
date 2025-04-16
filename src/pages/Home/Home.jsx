@@ -62,7 +62,7 @@ const Home = () => {
       const response = await axiosInstance.get("/users/get-user");
       console.log("GET-RESP.DATA.DOC", response.data);
 
-      if (response.data && response.data._doc) {
+      if (response.data) {
         setUserInfo(response.data._doc); // Guardar la info en el estado
          console.log("USERINFO",userInfo);
           
